@@ -1,9 +1,38 @@
 *{
+    font-family: Roboto, Courier, monospace;
     box-sizing: border-box;
+    padding: 0px;
 }
 
-.header, .top-panel, .main-container, .mid-panel-items{
+.header, .header-right, .top-panel, .main-container, .mid-panel-items{
     display: flex;
+}
+
+.main-container{
+    margin: 3px 200px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5e7e5;
+}
+
+.header-left{
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right{
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+
+.header{
+    padding: 2px 8px;
+    justify-content: space-between;
 }
 
 .main-container{
