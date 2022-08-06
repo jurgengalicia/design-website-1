@@ -4,11 +4,46 @@
     padding: 0px;
 }
 
+body, html{
+    margin:0;
+    padding:0;
+}
+
+.bg-header, .bg-top-panel{
+    background-color: #1F2937;
+}
+
+img{
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+
+}
+
 .header, .header-right, .top-panel, .main-container, .mid-panel-items{
     display: flex;
 }
 
-.main-container{
+.top-panel{
+    justify-content: space-around;
+}
+
+.top-left-panel{
+    color: #E5e7e5;
+    width: 300px;
+}
+
+
+
+.inner-margin{
     margin: 3px 200px;
 }
 
@@ -37,8 +72,4 @@ a{
 
 .main-container{
     flex-direction: column;
-}
-
-.header, .top-panel{
-    background-color: #1F2937;
 }
