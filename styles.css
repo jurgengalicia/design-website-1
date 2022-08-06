@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
-.main-container{
+.header, .top-panel, .main-container, .mid-panel-items{
     display: flex;
+}
+
+.main-container{
+    flex-direction: column;
+}
+
+.header, .top-panel{
+    background-color: #1F2937;
 }
