@@ -9,9 +9,48 @@ body, html{
     padding:0;
 }
 
+.header, .header-right, .main-container{
+    display: flex;
+}
+
 .bg-header, .bg-top-panel{
     background-color: #1F2937;
 }
+
+.mid-panel-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    height: 60px;
+    margin: 20px;
+}
+
+.mid-panel-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mid-panel-item{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-panel-item > p{
+    text-align: center;
+    color: #1F2937;
+    margin: 2px;
+}
+
+.mid-panel-item > img{
+    border: #3882f6 1px solid;
+}
+
 
 img{
     height: 250px;
@@ -28,11 +67,9 @@ button{
 
 }
 
-.header, .header-right, .top-panel, .main-container, .mid-panel-items{
-    display: flex;
-}
-
 .top-panel{
+    display: flex;
+    padding: 10px 0px;
     justify-content: space-around;
 }
 
