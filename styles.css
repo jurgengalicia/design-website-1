@@ -170,3 +170,11 @@ a{
     align-items: center;
     padding: 20px 60px;
 }
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5e7e5;
+    padding: 25px;
+}
