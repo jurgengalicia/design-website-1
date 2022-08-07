@@ -9,7 +9,7 @@ body, html{
     padding:0;
 }
 
-.header, .header-right, .main-container{
+.header, .main-container{
     display: flex;
 }
 
@@ -122,6 +122,8 @@ a{
 }
 
 .header-right{
+    display: flex;
+    width: 270px;
     justify-content: space-between;
     align-items: center;
     gap: 3px;
@@ -134,6 +136,7 @@ a{
 
 .main-container{
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .action-panel{
@@ -178,3 +181,4 @@ a{
     color: #E5e7e5;
     padding: 25px;
 }
+
